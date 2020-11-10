@@ -19,7 +19,7 @@ header {
     transform: scale(3);
 }
 .hover_t:hover {
-    transform: scale(2.5);
+    transform: scale(2.2);
 }
 .border {
   border: 5px solid black;
