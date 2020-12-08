@@ -1,80 +1,113 @@
 <!DOCTYPE html>
-<html>
-<title>Portfolio</title>
+<html lang="en">
+<title>Iterative Design</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 <body>
+<!-- Page content -->
+<!-- <div class="w3-content" style="max-width:2000px;margin-top:46px"> -->
 
-<div class="p-top">
-  <div class="p-bar p-black p-wide p-padding p-card">
-    <a href="#home" class="p-bar-item p-button"><b>My</b> Portfolio</a>
-    <div class="p-right p-hide-small">
-      <a href="#home" class="p-bar-item p-button">Home</a>
-      <a href="#projects" class="p-bar-item p-button">Projects</a>
-      <a href="#about" class="p-bar-item p-button">About</a>
-    </div>
-  </div>
-</div>
+  <!-- original website description -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="orig">
+    <h2 class="w3-wide">ITERATIVE DESIGN: <b>SOCKSOHO</b></h2>
+    <a href = https://socksoho.com/> <button class="w3-button w3-black w3-margin-bottom">Original SockSoho Website<i class="fa fa-external-link"></i></button></a>
+    <p class="w3-justify">SockSoho is a startup which aims to sell a variety of men's socks in India in unique and trendy designs and quality of cloth akin to Uniqlo.</p>
+    <p class="w3-justify"> We picked this startup because we liked the idea of making fashion more accessible in India and we truly loved the designs on the socks and wanted them to reach more people.
+      Our primary goals for our iterative design were: <ul> <li><p class="w3-justify"> simplification of functionality </p></li>
+        <li> <p class="w3-justify">using minimalistic designs and color schemes </p></li>
+        <li> <p class="w3-justify">finding the right balance between differentiating the website from
+        other shopping websites and ensuring that the features are recallable by avid online shoppers.</p></li></ul>
+      <p class = "w3-justify">We tried to meet these goals, along with meeting Jeff's goals for high quality user experience: usability, learnability, memorability and efficiency, as we iteratively designed the interface of this webpage.</p>
 
-<div class="p-content p-padding" style="max-width:1564px">
-  <div class="p-container p-padding-64" id="home">
-    <p>Thank you for visiting my portfolio! I'm glad that you're here. This is a collection of my projects done as part of my coursework in UI-UX at Brown University. I hope you enjoy reading as much I enjoyed putting this together :)</p><center><img width = 40% src = cool.jpeg></img></center>
-  </div>
-
-  <div class="p-container" id="projects">
-    <h3 class="p-border-bottom p-border-light-grey p-padding-16">PROJECTS</h3>
-    <p>Following are some of the projects that I have created. The first three are UI-UX related projects which helped me learn core design concepts, principles of user experience formation, prototyping
-      tools and user reaction evaluation. Throughout all my projects, I strived to maintain key usability principles such as smooth navigation, intuitive layout, and an engaging visual design.
-    </p>
-  </div>
-
-  <div class="p-row-padding ">
-    <div class="p-col l3 m6 p-margin-bottom">
-      <img src="rede.png" width = "320px" height = "220px" alt="Responsive Redesign" style="width:100%">
-      <h4 class = p-black><a href = "https://serene-mountain-12784.herokuapp.com/" target="_blank">Responsive Redesign</a></h4>
-      <p>Completely redesigned and revamped the website of a local real estate company, and created a final product that is responsive, functional and easy to use for homeowners looking to sell/rent
-      and people looking to find a home or office.</p>
-    </div>
-    <div class="p-col l3 m6 p-margin-bottom">
-      <img src="iter.png" width = "320px" height = "220px" alt="Iterative Design" style="width:100%">
-      <h4 class = p-black><a href = "https://fast-stream-89261.herokuapp.com/" target="_blank">Iterative Design</a></h4>
-      <p>Iteratively designed a website for a socks startup through sketches, low-fidelity wireframes, and high-fidelity prototypes. Tested the final prototype on end users via UserTesting to receive feedback.</p>
-    </div>
-    <div class="p-col l3 m6 p-margin-bottom">
-      <img src="dev.png" width = "320px" height = "220px" alt="Development" style="width:100%">
-      <h4 class = p-black><a href = "https://stormy-river-42267.herokuapp.com/" target="_blank">React Development</a></h4>
-      <p>Created a shopping website using React and implemented cross-filtering, price-sorting, and shopping cart functionality.</p>
-    </div>
-    <div class="p-col l3 m6 p-margin-bottom">
-      <img src="vr.jpg" width = "320px" height = "220px" alt="VR Telepresence" style="width:100%">
-      <h4 class = p-black><a href = "https://docs.google.com/presentation/d/1pidRxSoINY-UJQZLcTwkdbW8QtYjOShJ-Ihkpcxdbe4/edit?usp=sharing" target="_blank">VR Telepresence</a></h4>
-      <p>Proposed an idea for a real life usecase of Virtual Reality. Researched how to use VR for telepresence (virtual travel, remote participation) and presented my discovery and ideas in a slidedeck.</p>
-    </div>
+  <!-- sketches summary -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="usab">
+    <h2 class="w3-wide">SKETCHES</h2>
+    <p class="w3-justify"> We are designing a website interface. Our users will be male-identifying people shopping for socks for themselves or anyone shopping for men's socks for gifting purposes. Keeping these large variety of users and the geographic location of the startup in mind,
+      we came up with the following sketches. Hover to enlarge!</p>
+    <div class = "w3-half"><img style="border:1px solid black;" src = sketch_1.png width = "95%" height = "95%" class = "hover_t"></div>
+    <div class = "w3-half"><img style="border:1px solid black;" src = sketch_2.png width = "95%"height = "95%" class = "hover_t"></div>
+    <div class = "w3-half"><img style="border:1px solid black;"src = sketch_3.png width = "95%"height = "95%" class = "hover_t"></div>
+    <div class = "w3-half"><img style="border:1px solid black;" src = sketch_4.png width = "95%"height = "95%" class = "hover_t"></div>
   </div>
 
-  <div class="p-container" id="about">
-    <h3 class="p-border-bottom p-border-light-grey p-padding-16">WHO AM I?</h3>
-    <p>I am a senior year undergraduate student at Brown University concentrating in Computer Science and Economics. I am from India and have a passion for product
-    management and human-centered design thinking. My interests lie in hiking, listening to world music, and exploring new cuisines.</p><p> During my time at Brown, I have taken courses in Virtual Reality,
-    Cybersecuity, Game Theoretical Economics, International Relations, Contemporary Architecture, and South Asian studies. Having done an independent study in Data Driven Product Management, I have become
-    very interested in learning about product cycles and the data culture in different organisations and different companies, and the various strategies and tools that can be used to optimize these
-    processes. </p><p>I believe that it is just as important for a product manager to be well-versed with design principles and frameworks to work with UI-UX teams as they should be with computer science concepts
-    to work with engineering teams. My coursework in UI-UX has augmented this learning by helping me gain an insight into persona building, storyboarding, experimentation, a/b testing,
-    user surveying and iterative designing.</p><center><figure><img src = samhitha.jpg><figcaption><font color = grey>Artwork by Samhitha Chitturi</font></figcaption></figure></center>
-    <p>If you like my work, please reach out to chat more :)
-<a href="#" class="fa fa-facebook-square"></a>
-<a href="#" class="fa fa-linkedin-square"></a>
-<a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-envelope-square"></a>
-<a href="#" class="fa fa-phone-square"></a></p>
-  </div>
-</div>
 
-<footer class="p-padding p-black p-center">
-  <p class="p-medium">By me, with &#9829;</p>
-</footer>
+  <!-- wireframe summary -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="acce">
+    <h2 class="w3-wide">WIREFRAMES</h2>
+    <p class = "w3-justify"> We think that the above sketches are effective in meeting the startup goals: introducing unique patterns to people who otherwise shop socks from known brands. They are different from the clustered layout of the original website.
+      In our second iteration of the design, we made these wireframes that follow the sketches closely but are different in the layout of the cart page. Hover to enlarge!</p>
+      <div class = "w3-third"><img src = wireframe_1.png width = "95%" height = "95%" class = "hover_t"></div>
+      <div class = "w3-third"><img src = wireframe_2.png width = "95%"height = "95%" class = "hover_t"></div>
+      <div class = "w3-third"><img src = wireframe_3.png width = "95%"height = "95%" class = "hover_t"></div>
+      <div class = "w3-third"><img src = wireframe_4.png width = "95%"height = "95%" class = "hover_t"></div>
+  </div>
+
+  <!-- mockup summary -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="acce">
+    <h2 class="w3-wide">PROTOTYPE</h2>
+    <img src = homepage.png>
+    <p class = "w3-justify"> Here is our high-fidelity mockup with all the interactive features we want to give to the real website. Before we finalized on this version of the mockup,
+      we had a mockup with a slightly different shopping page and cart page. Our critique involved the following pieces of feedback: <ul>
+        <li><p class = "w3-justify">Replace the question mark icon with the words "Help Center" so it can more accurately convey the gist of the content on the "Help Page."</p></li>
+        <li><p class = "w3-justify">Modify the checkout page to include the price of each item. </p></li>
+        <li><p class = "w3-justify">Replace the black cart icon for "add to cart" action with the words "Add to cart" and sizes "S", "M", "L."</p></li>
+        <li><p class = "w3-justify">Add scrollable list in the cart page.</p></li>
+        <li><p class = "w3-justify">Include stars as rating scale in "Reviews" page. </p></li>
+        <li><p class = "w3-justify">The cart page was unlike anything the critiques had seen before but they appreciated the uniqueness of it and believed that it would still be usable.</p></li>
+    <a href = https://www.figma.com/proto/zSBO7EcNSd0dyTKMnAfcvK/High-fi-SockSoho?node-id=3%3A3&scaling=min-zoom>
+       <button class="w3-button w3-black w3-margin-bottom">Click here to see the full version of our high fidelity prototype.<i class="fa fa-external-link"></i></button></a>
+  </div>
+
+  <!-- user testing -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="acce">
+    <h2 class="w3-wide">USER TESTING: TASKS, RESPONSES, ANALYSIS</h2>
+    <p class="w3-justify"><ul>
+      <li><p class="w3-justify"><b><u>Tasks: </u></b><ul><li><p class="w3-justify">Imagine you have a question about shipping logistics. How would you find help on the website?</li>
+      <li><p class="w3-justify">Browse the shopping page, add 3 items to the shopping cart and checkout.</li>
+        <div class = "w3-third"><video width="200" height= "200" controls><source src="user_1.mp4" type="video/mp4"></video></div>
+        <div class = "w3-third"><video width="200" height= "200" controls><source src="user_2.mp4" type="video/mp4"></video></div>
+        <div class = "w3-third"><video width="200" height= "200" controls><source src="user_3.mp4" type="video/mp4"></video></div></ul>
+      <li><p class="w3-justify">We also asked them general questions about their thoughts on the different pages, their impression of the start up, and how we could improve the mockups. Following are the highlights of the user <u>responses</u>: </li></p>
+      <ul><li><p class="w3-justify">There was a 100% success rate for task completion for both tasks.</li></p>
+        <li><p class="w3-justify">All users felt that their first impression of the website was that it was an online store that sells high quality product with unique designs.</li></p>
+        <li><p class="w3-justify">One user felt that the written content was too light, and they did not love the black frame. They also suggested changing the light blue background. </li></p>
+        <li><p class="w3-justify">The users commented that there was no problem with navigation and that it had a smooth flow and was straightforward to get help and read reviews.</li></p>
+        <li><p class="w3-justify">One user really liked the simplicity of adding to cart simply by clicking on size, making this action a 1-click process instead of a 2-click process of selecting, size, and then clicking "add to cart."</li></p>
+        <li><p class="w3-justify">The tasks were uninamously declared by the users as very easy to fulfill by navigating through the pages on the prototype.</li></p>
+        <li><p class="w3-justify">One user commented that they wished that they could see a number on the cart when they added items to the cart. </li></p>
+        <li><p class="w3-justify">For the reviews page, we received feedback to add bigger pictures, more testimonies and identities of reviewers to improve legitimacy of reviews and build a sense of trust.</li></p></ul>
+      <li><p class="w3-justify"><b><u>Analysis:</b></u></li></p><ul>
+      <li><p class="w3-justify">We had three participants aged 22-47: one male and two female, all of them browsing on Chrome. One was full-time employed, one was a student and the other was a stay-at-home mom. From this, we understand that all three users would be avid users of the internet and have potentially shopped online many times before.</li>
+      <li><p class="w3-justify">Overall, our feedback tended to be more about design and less about functionality. For the former, we were recommended to make the website more professional, modern and adult-looking, while for the latter, we were lauded for the easy of navigation and usage.</li>
+      <li><p class="w3-justify">The average time to complete task 1 (getting help about shipping) was 35 seconds. The average clicks were 8. We believe that while the time variable was efficient, the number of clicks could be reduced.</li>
+      <li><p class="w3-justify">The average time to complete task 2 (adding 3 items to cart) was 89 seconds. The average clicks were 16. We thought we did great on time since three different socks of different sizes were successfully added and checked out in less than 90 seconds.
+        The clicks could be reduced again but we would be more interested to make a comparison with the average clicks on other shopping websites before further analyzing and iterating on this design.</li>
+      </ul>
+</p>
+
+<!-- conclusion -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="acce">
+  <h2 class="w3-wide">CONCLUSION</h2>
+  <p class="w3-justify"> We learnt how important it is to have an iterative approach to the design development of user experiences. We understood that it is always helpful to get critique and feedback, both from
+    professionals in the field, as well as the very people who will be the end users of the product, before we land on the final mockup for the product. Such feedback helps us ground our ideas and keep them customer-focused. Talking to each other
+    and critically discussing the need for every click and every feature, and every color scheme helped us achieve our goals for a minimalistic design that is still robust on functionality. The iterative approach helped us save time and resources by ensuring
+    that we don't deploy a product which is not fully tested. This cost effective approach helped us keep user experience as the first priority in the design process.
+</p>
+<p> We hoped you enjoyed reading about our iterative design process as much as we enjoyed creating it. </p>
+
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="acce">
+<h2 class="w3-wide">THANK YOU!</h2>
+
+<!-- End Page Content -->
+<!-- </div> -->
 
 </body>
 </html>
